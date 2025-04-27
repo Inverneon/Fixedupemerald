@@ -438,3 +438,28 @@ PlayersHouse_1F_Text_WhatColorDidTheySay:
 PlayersHouse_1F_Text_StillUnknownPokemon:
 	.string "MOM: Well, isn't that something!\n"
 	.string "There are still unknown POKéMON.$"
+
+PlayersHouse_2f_PleaseSelectDifficulty:
+    .string "Select your Difficulty.$"
+
+VanillaExplanation:
+    .string "Leave boss trainers with no team\n"
+    .string "Changes other than different moves.\p"
+    .string "Would you like to play on this mode?$"
+
+VanillaDoubleExplanation:
+    .string "Makes all battles double battles.\p"
+    .string "Trainers with 1, 3 or 5 pokemon will\n"
+    .string "be given an extra pokemon.\p"
+    .string "Would you like to play on this mode?$" 
+
+ChallengeExplanation:
+    .string "Makes battles harder with a mix of\n"
+    .string "Single and Double battles.\p"
+    .string "Would you like to play on this mode?$" 
+
+LunaticExplanation:
+    .string "Makes the game DRASTICALLY harder.\p"
+    .string "Play this mode at your own risk.\n"
+    .string "All bosses have full teams of 6.\p"
+    .string "Would you like to play on this mode?$" 

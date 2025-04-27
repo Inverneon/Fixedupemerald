@@ -208,7 +208,7 @@ void NewGameInitData(void)
     WipeTrainerNameRecords();
     ResetTrainerHillResults();
     ResetContestLinkResults();
-    SetCurrentDifficultyLevel(DIFFICULTY_NORMAL);
+    SetCurrentDifficultyLevel(DIFFICULTY_VANILLA);
     ResetItemFlags();
     ResetDexNav();
 }

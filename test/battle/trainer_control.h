@@ -9,7 +9,7 @@
 #line 1 "test/battle/trainer_control.party"
 
 #line 1
-    [DIFFICULTY_NORMAL][0] =
+    [DIFFICULTY_VANILLA][0] =
     {
 #line 2
         .trainerName = _("Test1"),
@@ -212,7 +212,7 @@
         },
     },
 #line 81
-    [DIFFICULTY_NORMAL][3] =
+    [DIFFICULTY_VANILLA][3] =
     {
 #line 82
         .trainerName = _("Test3"),
@@ -277,7 +277,7 @@
         },
     },
 #line 98
-    [DIFFICULTY_NORMAL][4] =
+    [DIFFICULTY_VANILLA][4] =
     {
 #line 99
         .trainerName = _("Test4"),
@@ -372,7 +372,7 @@
         },
     },
 #line 123
-    [DIFFICULTY_NORMAL][5] =
+    [DIFFICULTY_VANILLA][5] =
     {
 #line 124
         .trainerName = _("Test5"),
@@ -521,7 +521,7 @@
         },
     },
 #line 161
-    [DIFFICULTY_NORMAL][6] =
+    [DIFFICULTY_VANILLA][6] =
     {
 #line 162
         .trainerName = _("Test6"),
@@ -583,7 +583,7 @@
         },
     },
 #line 180
-    [DIFFICULTY_NORMAL][7] =
+    [DIFFICULTY_VANILLA][7] =
     {
 #line 181
         .trainerName = _("Test1"),
@@ -643,7 +643,7 @@
         },
     },
 #line 198
-    [DIFFICULTY_NORMAL][8] =
+    [DIFFICULTY_VANILLA][8] =
     {
 #line 199
         .trainerName = _("Test1"),

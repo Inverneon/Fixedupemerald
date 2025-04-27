@@ -58,6 +58,17 @@ LittlerootTown_MaysHouse_2F_EventScript_WallClock::
 	end
 
 PlayersHouse_2F_EventScript_WallClock::
+    msgbox PlayersHouse_2f_PleaseSelectDifficulty MSGBOX_DEFAULT
+	waitmessage
+	multichoicedefault 21, 6, MULTI_DIFFICULTIES, 4, FALSE
+	switch VAR_RESULT
+	case 0, PlayersHouse_2f_DifficultyVanilla
+	case 1, PlayersHouse_2f_DifficultyVanillaDouble
+	case 2, PlayersHouse_2f_DifficultyChallenge
+	case 3, PlayersHouse_2f_DifficultyLunatic
+
+PlayersHouse_2F_EventScript_WallClock_2::
+	case MULTI_B_PRESSED, PlayersHouse_2F_EventScript_WallClock_2
 	goto_if_set FLAG_SET_WALL_CLOCK, PlayersHouse_2F_EventScript_CheckWallClock
 	msgbox PlayersHouse_2F_Text_ClockIsStopped, MSGBOX_DEFAULT
 	call PlayersHouse_2F_EventScript_SetWallClock
@@ -72,6 +83,47 @@ PlayersHouse_2F_EventScript_WallClock::
 	playse SE_EXIT
 	removeobject VAR_0x8008
 	releaseall
+	end
+
+PlayersHouse_2f_DifficultyVanilla:
+    msgbox VanillaExplanation, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, MakeDifficultyVanilla
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_WallClock
+	end
+
+MakeDifficultyVanilla:
+    setdifficulty DIFFICULTY_VANILLA
+	goto PlayersHouse_2F_EventScript_WallClock_2
+	end
+
+PlayersHouse_2f_DifficultyVanillaDouble:
+    msgbox VanillaDoubleExplanation, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, MakeDifficultyVanillaDouble
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_WallClock
+	end
+
+MakeDifficultyVanillaDouble:
+    setdifficulty DIFFICULTY_VANILLA_DOUBLE
+	end
+
+PlayersHouse_2f_DifficultyChallenge:
+    msgbox ChallengeExplanation, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, MakeDifficultyChallenge
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_WallClock
+	end
+
+MakeDifficultyChallenge:
+    setdifficulty DIFFICULTY_CHALLENGE
+	end
+
+PlayersHouse_2f_DifficultyLunatic:
+    msgbox LunaticExplanation, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, MakeDifficultyLunatic
+	goto_if_eq VAR_RESULT, NO, PlayersHouse_2F_EventScript_WallClock
+	end
+
+MakeDifficultyLunatic:
+    setdifficulty DIFFICULTY_LUNATIC
 	end
 
 PlayersHouse_2F_EventScript_MomComesUpstairsMale::

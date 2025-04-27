@@ -632,13 +632,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
             "Slams the foe with a long\n"
             "tail, vine, etc."),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_HIT_SWITCH_TARGET,
         .power = 120,
         .type = TYPE_DRAGON,
         .accuracy = 100,
         .pp = 20,
         .target = MOVE_TARGET_SELECTED,
-        .priority = 0,
+        .priority = -6,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
         .skyBattleBanned = TRUE,
