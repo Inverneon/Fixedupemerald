@@ -104,6 +104,7 @@ PlayersHouse_2f_DifficultyVanillaDouble:
 
 MakeDifficultyVanillaDouble:
     setdifficulty DIFFICULTY_VANILLA_DOUBLE
+	goto PlayersHouse_2F_EventScript_WallClock_2
 	end
 
 PlayersHouse_2f_DifficultyChallenge:
@@ -114,6 +115,7 @@ PlayersHouse_2f_DifficultyChallenge:
 
 MakeDifficultyChallenge:
     setdifficulty DIFFICULTY_CHALLENGE
+	goto PlayersHouse_2F_EventScript_WallClock_2
 	end
 
 PlayersHouse_2f_DifficultyLunatic:
@@ -124,6 +126,7 @@ PlayersHouse_2f_DifficultyLunatic:
 
 MakeDifficultyLunatic:
     setdifficulty DIFFICULTY_LUNATIC
+	goto PlayersHouse_2F_EventScript_WallClock_2
 	end
 
 PlayersHouse_2F_EventScript_MomComesUpstairsMale::

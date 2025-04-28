@@ -2408,4 +2408,11 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+
+    [ABILITY_FRIGID_FRENZY] =
+    {
+        .name = _("Frigid Frenzy"),
+        .description = COMPOUND_STRING("Ups attack and speed in Hail by 50%."),
+        .aiRating = 8,
+    },
 };
