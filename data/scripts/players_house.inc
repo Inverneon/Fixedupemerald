@@ -114,6 +114,7 @@ PlayersHouse_2f_DifficultyChallenge:
 	end
 
 MakeDifficultyChallenge:
+    setvar VAR_SET_CAP, 16
     setdifficulty DIFFICULTY_CHALLENGE
 	goto PlayersHouse_2F_EventScript_WallClock_2
 	end
@@ -126,6 +127,7 @@ PlayersHouse_2f_DifficultyLunatic:
 
 MakeDifficultyLunatic:
     setdifficulty DIFFICULTY_LUNATIC
+	setvar VAR_SET_CAP, 15
 	goto PlayersHouse_2F_EventScript_WallClock_2
 	end
 

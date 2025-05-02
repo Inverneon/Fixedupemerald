@@ -2134,8 +2134,8 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_COMMANDER] =
     {
-        .name = _("Commander"),
-        .description = COMPOUND_STRING("Commands from Dondozo."),
+        .name = _("Remor-aid"),
+        .description = COMPOUND_STRING("Gives a double omni-boost to Mantine."),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
