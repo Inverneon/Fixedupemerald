@@ -4765,7 +4765,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .baseSpAttack  = 40,
         .baseSpDefense = 40,
     #if P_UPDATED_TYPES >= GEN_6
-        .types = MON_TYPES(TYPE_FAIRY),
+        .types = MON_TYPES(TYPE_NORMAL),
     #else
         .types = MON_TYPES(TYPE_NORMAL),
     #endif
@@ -4836,7 +4836,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .baseSpAttack  = 60,
         .baseSpDefense = 60,
     #if P_UPDATED_TYPES >= GEN_6
-        .types = MON_TYPES(TYPE_FAIRY),
+        .types = MON_TYPES(TYPE_NORMAL),
     #else
         .types = MON_TYPES(TYPE_NORMAL),
     #endif
@@ -4849,7 +4849,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_QUICK_FEET, ABILITY_RATTLED },
+        .abilities = { ABILITY_INTIMIDATE, ABILITY_RATTLED, ABILITY_RATTLED },
     #else
         .abilities = { ABILITY_INTIMIDATE, ABILITY_NONE, ABILITY_RATTLED },
     #endif
@@ -4913,9 +4913,9 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 
     [SPECIES_QWILFISH] =
     {
-        .baseHP        = 65,
+        .baseHP        = 75,
         .baseAttack    = 95,
-        .baseDefense   = P_UPDATED_STATS >= GEN_7 ? 85 : 75,
+        .baseDefense   = P_UPDATED_STATS >= GEN_7 ? 105 : 75,
         .baseSpeed     = 85,
         .baseSpAttack  = 55,
         .baseSpDefense = 55,
@@ -4929,7 +4929,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
-        .abilities = { ABILITY_POISON_POINT, ABILITY_SWIFT_SWIM, ABILITY_INTIMIDATE },
+        .abilities = { ABILITY_IRON_BARBS, ABILITY_SWIFT_SWIM, ABILITY_INTIMIDATE },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Qwilfish"),
         .cryId = CRY_QWILFISH,
@@ -5368,7 +5368,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = 35,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_INNER_FOCUS, ABILITY_KEEN_EYE, ABILITY_PICKPOCKET },
+        .abilities = { ABILITY_INNER_FOCUS, ABILITY_TOUGH_CLAWS, ABILITY_PICKPOCKET },
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = TRUE,
         .speciesName = _("Sneasel"),
