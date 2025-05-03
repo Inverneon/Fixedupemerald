@@ -4912,18 +4912,18 @@ Difficulty: Lunatic
 Pool Rules: Doubles 
 Party Size: 6
 
-Relicanth
+Relicanth @ Siturs Berry
 Ability: Rock Head
-Level: 14
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+- Water Gun
+- Mud Slap
+- Ancient Power
+- Substitue
 
-Lileep
+Lileep @ Leftovers
 Ability: Storm Drain
-Level: 14
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Defense Curl
@@ -4931,12 +4931,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Tomb
 
 Zubat
-Level: 14
+Ability: Inner Focus
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+- Wing Attack
+- leech Life
+- Mega Drain
+- Protect
 
 Nosepass @ Oran Berry
 Ability: Solid Rock
@@ -4973,10 +4974,10 @@ Ability: Storm Drain
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tags: Lead / Support
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+- Mega Drain
+- Sludge
+- Rock Slide
+- String Shot
 
 Zubat
 Ability: Inner Focus
