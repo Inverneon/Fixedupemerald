@@ -4912,25 +4912,25 @@ Difficulty: Lunatic
 Pool Rules: Doubles 
 Party Size: 6
 
-Relicanth @ Siturs Berry
+Relicanth @ Sitrus Berry
 Ability: Rock Head
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Water Gun
 - Mud Slap
 - Ancient Power
-- Substitue
+- Substitute
 
 Lileep @ Leftovers
 Ability: Storm Drain
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+- Mega Drain
+- Sludge
+- Rock Slide
+- String Shot
 
-Zubat
+Zubat @ Covert Cloak
 Ability: Inner Focus
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
@@ -4939,7 +4939,32 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mega Drain
 - Protect
 
-Nosepass @ Oran Berry
+Cubone @ Thick Club
+Ability: Lightning Rod
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bonemerang
+- Blizzard
+
+Staryu @ Mystic Water
+Ability: Illuminate
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- BubbleBeam
+- Confusion
+- Icy Wind
+- Recover
+
+Aron @ Clear Amulet
+Ability: Earth Eater
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Iron Defense
+- Rock Slide
+- Aqua Ring
+
+Nosepass @ Berry Juice
 Ability: Solid Rock
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
@@ -4949,17 +4974,17 @@ Tags: Ace
 - Tackle
 - Rock Tomb
 
-Lunatone
+Lunatone @ Weakness Policy
 Ability: Levitate
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tags: Lead
-- Confusion
+- Stored Power
 - Rock Slide
 - Moonlight
 - Calm Mind
 
-Sableye
+Sableye @ Black Glasses
 Ability: Prankster
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
@@ -4969,7 +4994,7 @@ Tags: Lead
 - Knock Off
 - Rock Smash
 
-Lileep
+Lileep @ Leftovers
 Ability: Storm Drain
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
@@ -4979,15 +5004,15 @@ Tags: Lead / Support
 - Rock Slide
 - String Shot
 
-Zubat
+Zubat @ Covert Cloak
 Ability: Inner Focus
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tags: Lead / Support
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+- Wing Attack
+- leech Life
+- Mega Drain
+- Protect
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
