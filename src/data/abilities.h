@@ -2415,4 +2415,11 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Ups attack and speed in Hail by 50%."),
         .aiRating = 8,
     },
+
+    [ABILITY_SOOTHING_AROMA] =
+    {
+        .name = _("Soothing Aroma"),
+        .description = COMPOUND_STRING("Lower's Everyones Attack Stat."),
+        .aiRating = 8,
+    },
 };

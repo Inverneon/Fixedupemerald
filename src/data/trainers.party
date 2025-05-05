@@ -5020,33 +5020,132 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Machop
 Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Revenge
+- Strength
+- Foresight
 - Bulk Up
 
 Meditite
 Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Force Palm
+- Aerial Ace
 - Reflect
 - Bulk Up
 
 Makuhita @ Sitrus Berry
 Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- SmellingSalt
 - Vital Throw
 - Reversal
 - Bulk Up
+
+=== TRAINER_BRAWLY_1 ===
+Name: BRAWLY
+Class: Leader
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Vanilla Double
+
+Machop
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Revenge
+- Strength
+- Foresight
+- Bulk Up
+
+Poliwhirl
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Ice Punch
+- Brick Break
+- BubbleBeam
+
+Meditite
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Force Palm
+- Aerial Ace
+- Reflect
+- Light Screen
+
+Makuhita @ Sitrus Berry
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- SmellingSalt
+- Vital Throw
+- Fake Out
+- Bulk Up
+
+=== TRAINER_BRAWLY_1 ===
+Name: BRAWLY
+Class: Leader
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Challenge
+
+Machop @ Sitrus Berry
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Revenge
+- Rock Slide
+- Foresight
+- Bulk Up
+
+Poliwhirl @ Wise Glasses
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Ice Beam
+- Brick Break
+- BubbleBeam
+
+Meditite @ Light Clay
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Force Palm
+- Aerial Ace
+- Reflect
+- Light Screen
+
+Heracross @ Coba Berry
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Horn Attak
+- Fury Cutter
+- Dig
+- Rock Smash
+
+Vigoroth @ Muscle Band
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Rock Smash
+- Focus Punch
+- Pursuit
+
+Makuhita @ Assault Vest
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- SmellingSalt
+- Vital Throw
+- Fake Out
+- Helping Hand
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
