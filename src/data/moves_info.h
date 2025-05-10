@@ -21236,14 +21236,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_BLACK_HOLE_ECLIPSE] =
     {
-        .name = COMPOUND_STRING("Black Hole Eclipse"),
-        .description = sNullDescription,
+        .name = COMPOUND_STRING("Black Hole Surge"),
+        .description = COMPOUND_STRING(
+            "Releases a Black hole that deals damage to everyone."),
         .effect = EFFECT_HIT,
-        .power = 1,
+        .power = 500,
         .type = TYPE_DARK,
-        .accuracy = 0,
+        .accuracy = 100,
         .pp = 1,
-        .target = MOVE_TARGET_SELECTED,
+        .target = MOVE_TARGET_FOES_AND_ALLY,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .battleAnimScript = gBattleAnimMove_BlackHoleEclipse,

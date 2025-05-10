@@ -4832,36 +4832,36 @@ Double Battle: Yes
 AI: Basic Trainer
 Difficulty: Vanilla Double
 
-Geodude
+Geodude @ Custap Berry
 Ability: Sturdy
-Level: 12
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
 - Mud Slap
-- Rock Tomb
+- Rock Slide
+- Sandstorm
 
-Anorith
+Anorith @ Silver Powder
 Ability: Battle Armor
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Water Gun
-- Sandstorm
+- Fury Cutter
+- Rock Tomb
+- Metal Claw
 
-Aron
+Aron @ Berry Juice
 Ability: Sturdy
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
+- Iron Defense
 - Metal Claw
-- Rock Tomb
+- Rock Slide
 
 
 Nosepass @ Sitrus Berry
 Ability: Sand Force
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Block
+- Sandstorm
 - Harden
 - Thunder Shock
 - Rock Tomb
@@ -4876,29 +4876,59 @@ Double Battle: No
 AI: Basic Trainer
 Difficulty: Challenge
 
-Cubone
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
-
-Zubat
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
-
-Nosepass @ Oran Berry
+Larvitar @ Clear Amulet
+Ability: Sand stream
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Block
-- Harden
-- Tackle
 - Rock Tomb
+- Mud Slap
+- Bite
+- Dragon Dance
+
+Anorith @ Scope Lens
+Ability: Battle Armor
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Cutter
+- Rock Tomb
+- Metal Claw
+- Focus Energy
+
+Lileep @ Leftovers
+Ability: Storm Drain
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge
+- Mega Drain
+- Ancient Power
+- Recover
+
+Aron @ Eviolite
+Ability: Earth Eater
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Head
+- Iron Defense
+- Rock Tomb
+- Aqua Ring
+
+Bonsly @ Normal Gem
+Ability: Sturdy
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bullet Seed
+- Rock Tomb
+- Mud Slap
+- Flail
+
+Nosepass @ Oran Berry
+Ability: Sand Force
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Punch
+- Fire Punch
+- Rock Slide
+- Iron Head
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -4916,7 +4946,7 @@ Relicanth @ Sitrus Berry
 Ability: Rock Head
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Water Gun
+- BubbleBeam
 - Mud Slap
 - Ancient Power
 - Substitute
@@ -4927,7 +4957,7 @@ Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mega Drain
 - Sludge
-- Rock Slide
+- Ancient Power
 - String Shot
 
 Zubat @ Covert Cloak
@@ -4951,7 +4981,7 @@ Ability: Illuminate
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - BubbleBeam
-- Confusion
+- Psybeam
 - Icy Wind
 - Recover
 
@@ -4959,7 +4989,7 @@ Aron @ Clear Amulet
 Ability: Earth Eater
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Metal Claw
+- Iron Head
 - Iron Defense
 - Rock Slide
 - Aqua Ring
@@ -4969,17 +4999,17 @@ Ability: Solid Rock
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tags: Ace
-- Block
+- Sandstorm
 - Harden
-- Tackle
-- Rock Tomb
+- Rock Slide
+- Thunder Punch
 
 Lunatone @ Weakness Policy
 Ability: Levitate
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tags: Lead
-- Stored Power
+- Psybeam
 - Rock Slide
 - Moonlight
 - Calm Mind
@@ -4989,7 +5019,7 @@ Ability: Prankster
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tags: Lead
-- Thunder Wave
+- Will o Wisp
 - Fake Out
 - Knock Off
 - Rock Smash
@@ -5126,7 +5156,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Heracross @ Coba Berry
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Horn Attak
+- Horn Attack
 - Fury Cutter
 - Dig
 - Rock Smash

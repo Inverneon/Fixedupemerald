@@ -142,18 +142,24 @@ Debug_EventScript_Script_1::
 	end
 
 Debug_EventScript_Script_2::
+    setdifficulty DIFFICULTY_VANILLA
 	release
 	end
 
 Debug_EventScript_Script_3::
+    setdifficulty DIFFICULTY_VANILLA_DOUBLE
 	release
 	end
 
 Debug_EventScript_Script_4::
+    setvar VAR_SET_CAP, 16
+    setdifficulty DIFFICULTY_CHALLENGE
 	release
 	end
 
 Debug_EventScript_Script_5::
+    setdifficulty DIFFICULTY_LUNATIC
+	setvar VAR_SET_CAP, 15
 	release
 	end
 
