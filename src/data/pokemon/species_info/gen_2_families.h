@@ -3066,10 +3066,10 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     [SPECIES_YANMA] =
     {
         .baseHP        = 65,
-        .baseAttack    = 65,
+        .baseAttack    = 80,
         .baseDefense   = 45,
         .baseSpeed     = 95,
-        .baseSpAttack  = 75,
+        .baseSpAttack  = 65,
         .baseSpDefense = 45,
         .types = MON_TYPES(TYPE_BUG, TYPE_FLYING),
         .catchRate = 75,
@@ -3854,10 +3854,10 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 #define UNOWN_MISC_INFO(letter, _noFlip, frontWidth, frontHeight, backWidth, backHeight, backYOffset)   \
     {                                                                                                   \
         .baseHP        = 48,                                                                            \
-        .baseAttack    = 72,                                                                            \
+        .baseAttack    = 172,                                                                            \
         .baseDefense   = 48,                                                                            \
         .baseSpeed     = 48,                                                                            \
-        .baseSpAttack  = 72,                                                                            \
+        .baseSpAttack  = 172,                                                                            \
         .baseSpDefense = 48,                                                                            \
         .types = MON_TYPES(TYPE_PSYCHIC),                                                               \
         .catchRate = 225,                                                                               \
