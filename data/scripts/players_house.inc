@@ -92,6 +92,7 @@ PlayersHouse_2f_DifficultyVanilla:
 	end
 
 MakeDifficultyVanilla:
+    setvar VAR_SET_CAP, 100
     setdifficulty DIFFICULTY_VANILLA
 	goto PlayersHouse_2F_EventScript_WallClock_2
 	end
@@ -103,6 +104,7 @@ PlayersHouse_2f_DifficultyVanillaDouble:
 	end
 
 MakeDifficultyVanillaDouble:
+    setvar VAR_SET_CAP, 100
     setdifficulty DIFFICULTY_VANILLA_DOUBLE
 	goto PlayersHouse_2F_EventScript_WallClock_2
 	end

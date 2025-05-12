@@ -5816,7 +5816,7 @@ u16 GetBattleBGM(void)
     }
     else
     {
-        return MUS_VS_WILD;
+        return MUS_VS_ENTEI;
     }
 }
 

@@ -1112,6 +1112,7 @@ EMOJI_TIRED = F9 FB
 EMOJI_NEUTRAL = F9 FC
 EMOJI_SHOCKED = F9 FD
 EMOJI_BIGANGER = F9 FE
+MUS_VS_ENTEI = DD 01
 
 '\l' = FA @ scroll up window text
 '\p' = FB @ new paragraph
