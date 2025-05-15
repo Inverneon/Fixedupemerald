@@ -360,6 +360,7 @@ const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
     [TRAINER_CLASS_PIKE_QUEEN] = { _("PIKE QUEEN") },
     [TRAINER_CLASS_PYRAMID_KING] = { _("PYRAMID KING") },
     [TRAINER_CLASS_RS_PROTAG] = { _("{PKMN} TRAINER") },
+    [TRAINER_CLASS_SCIENTIST] = { _("Scientist") },
 };
 
 static void (* const sTurnActionsFuncsTable[])(void) =
@@ -5815,6 +5816,9 @@ bool32 TrySetAteType(u32 move, u32 battlerAtk, u32 attackerAbility)
         break;
     case ABILITY_GALVANIZE:
         ateType = TYPE_ELECTRIC;
+        break;
+    case ABILITY_TELEKINATE:
+        ateType = TYPE_PSYCHIC;
         break;
     default:
         ateType = TYPE_NONE;
