@@ -137,7 +137,7 @@ Debug_EventScript_Text_DefensiveIVs:
 	.string "HP IVs: {STR_VAR_1}, DEF IVs: {STR_VAR_2}, SPDEF IVs: {STR_VAR_3}$"
 
 Debug_EventScript_Script_1::
-	trainerbattle_single TRAINER_ROXANNE_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_NORMAN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
 	release
 	end
 
@@ -152,22 +152,34 @@ Debug_EventScript_Script_3::
 	end
 
 Debug_EventScript_Script_4::
+    setflag FLAG_SET_WEATHER_IN_BATTLES
     setvar VAR_SET_CAP, 16
     setdifficulty DIFFICULTY_CHALLENGE
 	release
 	end
 
 Debug_EventScript_Script_5::
+    setflag FLAG_SET_WEATHER_IN_BATTLES
     setdifficulty DIFFICULTY_LUNATIC
 	setvar VAR_SET_CAP, 15
 	release
 	end
 
 Debug_EventScript_Script_6::
+	trainerbattle_single TRAINER_FLANNERY_1, LavaridgeTown_Gym_1F_Text_FlanneryIntro, LavaridgeTown_Gym_1F_Text_FlanneryDefeat, LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated, NO_MUSIC
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, LavaridgeTown_Gym_1F_EventScript_FlanneryRematch
+	goto_if_unset FLAG_RECEIVED_TM_OVERHEAT, LavaridgeTown_Gym_1F_EventScript_GiveOverheat2
+	msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Debug_EventScript_Script_7::
+   	lock
+	faceplayer
+	trainerbattle_no_intro TRAINER_DONOVAN, NewMauvilleRaikouDefeated
+	removeobject VAR_LAST_TALKED
+    setflag FLAG_DEFATED_RAIKOU
 	release
 	end
 

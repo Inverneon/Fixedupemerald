@@ -240,10 +240,23 @@ NewMauville_Inside_EventScript_Voltorb3::
 	release
 	end
 
+NewMauville_Inside_vs_Raikou:
+   	lock
+	faceplayer
+	trainerbattle_no_intro TRAINER_DONOVAN, NewMauvilleRaikouDefeated
+	removeobject VAR_LAST_TALKED
+    setflag FLAG_DEFATED_RAIKOU
+	release
+	end
+
 NewMauville_Inside_EventScript_DefeatedVoltorb3::
 	setflag FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE
 	goto Common_EventScript_RemoveStaticPokemon
 	end
+
+NewMauvilleRaikouDefeated:
+	.string "Raikou seemed to have calmed\n"
+	.string "down!$"
 
 NewMauville_Inside_Text_GeneratorRadiatingHeat:
 	.string "The generator is radiating heat that\n"

@@ -116,6 +116,7 @@ PlayersHouse_2f_DifficultyChallenge:
 	end
 
 MakeDifficultyChallenge:
+    setflag FLAG_SET_WEATHER_IN_BATTLES
     setvar VAR_SET_CAP, 16
     setdifficulty DIFFICULTY_CHALLENGE
 	goto PlayersHouse_2F_EventScript_WallClock_2
@@ -128,6 +129,7 @@ PlayersHouse_2f_DifficultyLunatic:
 	end
 
 MakeDifficultyLunatic:
+    setflag FLAG_SET_WEATHER_IN_BATTLES
     setdifficulty DIFFICULTY_LUNATIC
 	setvar VAR_SET_CAP, 15
 	goto PlayersHouse_2F_EventScript_WallClock_2

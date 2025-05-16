@@ -5518,6 +5518,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 BattleScriptPushCursorAndCallback(BattleScript_BadDreamsActivates);
                 effect++;
                 break;
+            case ABILITY_FLORAL_FURY:
             case ABILITY_SOLAR_POWER:
                 if (IsBattlerWeatherAffected(battler, B_WEATHER_SUN))
                 {
@@ -5530,7 +5531,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 }
                 break;
             case ABILITY_FRIGID_FRENZY:
-                if (IsBattlerWeatherAffected(battler, B_WEATHER_HAIL))
+                if (IsBattlerWeatherAffected(battler, B_WEATHER_SNOW))
                     goto SOLAR_POWER_HP_DROP;
 
             case ABILITY_HEALER:
@@ -9787,6 +9788,10 @@ static inline u32 CalcAttackStat(struct DamageCalculationData *damageCalcData, u
         if (gBattleMons[battlerAtk].species == IsBattlerWeatherAffected(battlerAtk, B_WEATHER_HAIL) && IsBattleMovePhysical(move))
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_FLORAL_FURY:
+        if (gBattleMons[battlerAtk].species == IsBattlerWeatherAffected(battlerAtk, B_WEATHER_HAIL) && IsBattleMoveSpecial(move))
+            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
+        break;
     case ABILITY_HUSTLE:
         if (IsBattleMovePhysical(move))
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
@@ -9842,8 +9847,13 @@ static inline u32 CalcAttackStat(struct DamageCalculationData *damageCalcData, u
             }
         }
         break;
+    case ABILITY_SOLAR_STORM:
     case ABILITY_ORICHALCUM_PULSE:
         if ((weather & B_WEATHER_SUN) && HasWeatherEffect() && IsBattleMovePhysical(move))
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.3333));
+        break;
+    case ABILITY_ANCIENT_DOWNPOUR:
+        if ((weather & B_WEATHER_RAIN) && HasWeatherEffect() && IsBattleMovePhysical(move))
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.3333));
         break;
     case ABILITY_HADRON_ENGINE:

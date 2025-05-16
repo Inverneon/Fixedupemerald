@@ -699,12 +699,12 @@ Gloom
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ROSE_2 ===
-Name: ROSE
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
+=== TRAINER_DONOVAN ===
+Name: DONOVAN
+Class: Scientist
+Pic: Scientist
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
@@ -5222,44 +5222,155 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
 Class: Leader
-Pic: Leader Flannery
+Pic: Scientist
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Numel
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Ninetales @ Heat Rock
+Ability: Drought
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Overheat
-- Take Down
-- Magnitude
+- Hex
+- Solar Beam
 - Sunny Day
 
-Slugma
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Charmeleon
+Ability: Solar Power
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Overheat
-- Smog
-- Light Screen
-- Sunny Day
+- Fire Punch
+- Dragon Breath
+- Iron Tail
 
 Camerupt
-Level: 26
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Ability: Solid Rock
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Overheat
-- Tackle
-- Sunny Day
+- Magnitude
+- Rock Tomb
 - Attract
 
 Torkoal @ White Herb
-Level: 29
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Overheat
 - Sunny Day
 - Body Slam
 - Attract
+
+=== TRAINER_FLANNERY_1 ===
+Name: FLANNERY
+Class: Leader
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer
+Difficulty: Vanilla Double
+
+Ninetales @ Heat Rock
+Ability: Drought
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Hex
+- Solar Beam
+- Sunny Day
+
+Charmeleon
+Ability: Solar Power
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Fire Punch
+- Dragon Breath
+- Iron Tail
+
+Camerupt @ Sitrus Berry
+Ability: Solid Rock
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Mud Shot
+- Rock Slide
+- Attract
+
+Torkoal @ Charcoal
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Sunny Day
+- Body Slam
+- Attract
+
+=== TRAINER_FLANNERY_1 ===
+Name: FLANNERY
+Class: Leader
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Difficulty: Challenge
+
+Torkoal @ White Herb
+Ability: White Smoke
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Overheat
+- Sunny Day
+- Body Slam
+- Earthquake
+
+Charmeleon @ Charcoal
+Ability: Solar Power
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Slam
+- Solar Beam
+- Iron Tail
+
+Camerupt @ Sitrus Berry
+Ability: Solid Rock
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Earthquake
+- Rock Slide
+- Overheat
+
+Magmar @ Life Orb
+Ability: Flame Body
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Brick Break
+- Thunder Punch
+- Sludge Bomb
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sacred Fire
+- Crunch
+- Rock Slide
+- Solar Beam
+
+Ninetales @ Heat Rock
+Ability: Drought
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- FIre Blast
+- Shadow Ball
+- Solar Beam
+- Sunny Day
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -5267,40 +5378,212 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
 Spinda
 Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Teeter Dance
 - Psybeam
 - Facade
 - Encore
 
-Vigoroth
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
 Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
 - Facade
-- Encore
+- Swords Dance
 - Feint Attack
 
-Linoone
+Wigglytuff @ Sitrus Berry
+Ability: Competitive 
 Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bounce
 - Belly Drum
 - Facade
-- Headbutt
+- Fire Punch
 
-Slaking @ Sitrus Berry
+Slaking @ Leftovers
 Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint
 - Yawn
 - Facade
+- Feint Attack
+
+=== TRAINER_NORMAN_1 ===
+Name: NORMAN
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Vanilla Double
+
+Spinda @ Mental Herb
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Skill Swap
+- Psybeam
+- Helping Hand
+- Yawn
+
+Slaking @ Leftovers
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint
+- Yawn
+- Facade
+- Feint Attack
+
+Wigglytuff @ Sitrus Berry
+Ability: Competitive 
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bounce
+- Belly Drum
+- Facade
+- Fire Punch
+
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Facade
+- Swords Dance
+- Feint Attack
+
+=== TRAINER_NORMAN_1 ===
+Name: NORMAN
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Challenge
+
+Spinda @ Mental Herb
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Skill Swap
+- Psybeam
+- Helping Hand
+- Yawn
+
+Slaking @ Leftovers
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint
+- Yawn
+- Facade
+- Feint Attack
+
+Lickilicky @ Assault Vest
+Ability: Oblivious
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Lick
+- Body Slam
+- Brick Break
+- Shadow Ball
+
+Girafarig @ Twisted Spoon
+Ability: Competitive 
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Twin Beam
+- Thunderbolt
+- Hyper Voice
+- Crunch
+
+Wigglytuff @ Sitrus Berry
+Ability: Competitive 
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bounce
+- Belly Drum
+- Body Slam
+- Fire Punch
+
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Facade
+- Swords Dance
+- Feint Attack
+
+=== TRAINER_NORMAN_1 ===
+Name: NORMAN
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Lunatic
+Pool Rules: Doubles 
+Party Size: 6
+
+Spinda @ Mental Herb
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tags: Lead
+- Skill Swap
+- Psybeam
+- Helping Hand
+- Yawn
+
+Slaking @ Leftovers
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint
+- Yawn
+- Facade
+- Feint Attack
+
+Lickilicky @ Assault Vest
+Ability: Oblivious
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Lick
+- Body Slam
+- Brick Break
+- Shadow Ball
+
+Girafarig @ Twisted Spoon
+Ability: Competitive 
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Twin Beam
+- Thunderbolt
+- Hyper Voice
+- Crunch
+
+Wigglytuff @ Sitrus Berry
+Ability: Competitive 
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bounce
+- Belly Drum
+- Body Slam
+- Fire Punch
+
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Facade
+- Swords Dance
 - Feint Attack
 
 === TRAINER_WINONA_1 ===
