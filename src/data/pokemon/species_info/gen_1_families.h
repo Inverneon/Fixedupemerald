@@ -12463,7 +12463,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_VOLTORB] =
     {
         .baseHP        = 40,
-        .baseAttack    = 30,
+        .baseAttack    = 50,
         .baseDefense   = 50,
         .baseSpeed     = 100,
         .baseSpAttack  = 55,
@@ -12477,7 +12477,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_GALVANIZE, ABILITY_NONE, ABILITY_AFTERMATH },
+        .abilities = { ABILITY_GALVANIZE, ABILITY_LIGHTNING_ROD, ABILITY_AFTERMATH },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Voltorb"),
         .cryId = CRY_VOLTORB,
@@ -12534,7 +12534,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_ELECTRODE] =
     {
         .baseHP        = 60,
-        .baseAttack    = 50,
+        .baseAttack    = 70,
         .baseDefense   = 70,
         .baseSpeed     = P_UPDATED_STATS >= GEN_7 ? 150 : 140,
         .baseSpAttack  = 80,
@@ -12548,7 +12548,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_GALVANIZE, ABILITY_NONE, ABILITY_AFTERMATH },
+        .abilities = { ABILITY_GALVANIZE, ABILITY_LIGHTNING_ROD, ABILITY_AFTERMATH },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Electrode"),
         .cryId = CRY_ELECTRODE,

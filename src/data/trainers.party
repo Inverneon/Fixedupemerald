@@ -5183,29 +5183,28 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
 Voltorb
 Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rollout
-- Spark
+- Defense Curl 
 - Self Destruct
 - Shock Wave
 
-Electrike
+Volbeat
 Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shock Wave
-- Leer
-- Quick Attack
-- Howl
+- Confuse Ray
+- Giga Drain
+- Signal Beam
 
 Magneton
 Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Supersonic
 - Shock Wave
 - Thunder Wave
@@ -5213,9 +5212,9 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 Manectric @ Sitrus Berry
 Level: 24
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
-- Thunder Wave
+- Bite
 - Shock Wave
 - Howl
 
@@ -5592,49 +5591,402 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer / Risky
 
-Swablu
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
-- Aerial Ace
 
-Tropius
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
+Swellow @ Flame Orb
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
 - Aerial Ace
-- Solar Beam
-- Synthesis
-
-Pelipper
-Level: 30
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
 - Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Substitute
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
 - Aerial Ace
 
-Skarmory
-Level: 31
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
 - Fury Attack
 - Steel Wing
 - Aerial Ace
 
-Altaria @ Oran Berry
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Altaria @ Sitrus Berry
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 - Dragon Breath
 - Dragon Dance
 - Aerial Ace
+
+Swellow @ Flame Orb
+Level: 32
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Aerial Ace
+- Protect
+- Endeavor
+
+Skarmory @ Custap Berry
+Ability: Sturdy
+Level: 32
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spikes
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer / Risky
+Difficulty: Vanilla Double
+
+
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+Swellow @ Flame Orb
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Air Cutter
+- Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Protect
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
+- Air Cutter
+
+Altaria @ Sitrus Berry
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Air Cutter
+
+
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer / Risky
+Difficulty: Challenge
+
+
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+Flygon @ Life Orb
+Ability: Sheer Force
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Fire Blast
+- Dragon Claw
+- Aerial Ace
+
+Swellow @ Flame Orb
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Air Cutter
+- Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Protect
+
+Toucannon @ Sitrus Berry
+Ability: Skill Link
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Fury Attack
+- Beak Blast
+- Heat Wave
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
+- Air Cutter
+
+Articuno @ Never Melt Ice
+Ability: Pressure
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Blizzard
+- Ice Beam
+- Freeze Dry
+- Water Pulse
+
+
+
+Altaria @ Sitrus Berry
+Level: 36
+Tags: Ace
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Air Cutter
+
+Skarmory @ Focus Sash
+Ability: Sharpness
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spikes
+- Fury Attack
+- Steel Wing
+- Air Cutter
+
+Flygon @ Life Orb
+Ability: Sheer Force
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Aerial Ace
+
+Articuno @ Never Melt Ice
+Ability: Pressure
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Blizzard
+- Ice Beam
+- Freeze Dry
+- Air Cutter
+
+Toucannon @ Sitrus Berry
+Ability: Skill Link
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Fury Attack
+- Beak Blast
+- Heat Wave
+
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer / Risky
+Difficulty: Lunatic 
+
+
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+Flygon @ Life Orb
+Ability: Sheer Force
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Fire Blast
+- Dragon Claw
+- Aerial Ace
+
+Swellow @ Flame Orb
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Air Cutter
+- Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Protect
+
+Toucannon @ Sitrus Berry
+Ability: Skill Link
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Fury Attack
+- Beak Blast
+- Heat Wave
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
+- Air Cutter
+
+Articuno @ Never Melt Ice
+Ability: Pressure
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Blizzard
+- Ice Beam
+- Freeze Dry
+- Water Pulse
+
+Altaria @ Sitrus Berry
+Level: 36
+Tags: Ace
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Air Cutter
+
+Moltres @ White Herb
+Ability: Pressure
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Air Cutter
+- Ancient Power
+- Overheat
+
+Flygon @ Life Orb
+Ability: Sheer Force
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Aerial Ace
+
+Articuno @ Never Melt Ice
+Ability: Pressure
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Blizzard
+- Ice Beam
+- Freeze Dry
+- Air Cutter
+
+Zapdos @ 
+Ability: Skill Link
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect
+- Lightscreen
+- Thunderbolt
+- Drill Peck
+
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -5775,20 +6127,24 @@ Wingull
 Level: 15
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_JERRY_2 ===
-Name: JERRY
-Class: School Kid
-Pic: School Kid M
+=== TRAINER_MAITO ===
+Name: MAITO
+Class: Leader
+Pic: Scientist
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
+Koffing
 Level: 26
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-Meditite
+Tentacool
+Level: 26
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+
 Level: 26
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
