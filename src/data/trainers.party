@@ -4830,7 +4830,7 @@ Gender: Female
 Music: Female
 Double Battle: Yes
 AI: Basic Trainer
-Difficulty: Vanilla Double
+Difficulty: Hard
 
 Geodude @ Custap Berry
 Ability: Sturdy
@@ -5085,7 +5085,7 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Smart Trainer
-Difficulty: Vanilla Double
+Difficulty: Hard
 
 Machop
 Level: 16
@@ -5270,7 +5270,7 @@ Gender: Female
 Music: Female
 Double Battle: Yes
 AI: Basic Trainer
-Difficulty: Vanilla Double
+Difficulty: Hard
 
 Ninetales @ Heat Rock
 Ability: Drought
@@ -5422,7 +5422,7 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Smart Trainer
-Difficulty: Vanilla Double
+Difficulty: Hard
 
 Spinda @ Mental Herb
 Level: 29
@@ -5665,7 +5665,7 @@ Gender: Female
 Music: Female
 Double Battle: Yes
 AI: Basic Trainer / Risky
-Difficulty: Vanilla Double
+Difficulty: Hard
 
 
 Skarmory @ Muscle Band
@@ -5977,13 +5977,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Freeze Dry
 - Air Cutter
 
-Zapdos @ 
+Zapdos 
 Ability: Skill Link
 Level: 36
 Tags: Lead
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Reflect
-- Lightscreen
+- Light Screen
 - Thunderbolt
 - Drill Peck
 
@@ -6125,7 +6125,7 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Wingull
 Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAITO ===
 Name: MAITO
@@ -6136,17 +6136,36 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Koffing
-Level: 26
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Koffing  
+Ability: Levitate  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Gas  
+- Smog  
+- Ember  
+- Sludge  
 
-Tentacool
-Level: 26
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Grimer-Alola  
+Ability: Poison Touch  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite  
+- Sludge  
+- Acid Armor  
+- Mud Slap
 
+Tentacool  
+Ability: Clear Body  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubble  
+- Venoshock  
+- Absorb
+- Confuse Ray
 
-Level: 26
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Croagunk @ Poison Barb  
+Ability: Poison Point  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Venoshock  
+- Arm Thrust  
+- Poison Gas  
 
 === TRAINER_JERRY_3 ===
 Name: JERRY
@@ -6925,7 +6944,7 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Check Bad Move
-Difficulty: Vanilla Double
+Difficulty: Hard
 
 Poochyena
 Ability: Intimidate
@@ -12129,7 +12148,7 @@ Gender: Female
 Music: Female
 Double Battle: Yes
 AI: Check Bad Move
-Difficulty: Vanilla Double
+Difficulty: Hard
 
 Ralts
 Shiny: Yes

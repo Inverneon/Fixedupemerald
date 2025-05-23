@@ -137,7 +137,7 @@ Debug_EventScript_Text_DefensiveIVs:
 	.string "HP IVs: {STR_VAR_1}, DEF IVs: {STR_VAR_2}, SPDEF IVs: {STR_VAR_3}$"
 
 Debug_EventScript_Script_1::
-	trainerbattle_single TRAINER_NORMAN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_MAITO, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
 	release
 	end
 
@@ -147,7 +147,7 @@ Debug_EventScript_Script_2::
 	end
 
 Debug_EventScript_Script_3::
-    setdifficulty DIFFICULTY_VANILLA_DOUBLE
+    setdifficulty DIFFICULTY_HARD
 	release
 	end
 
